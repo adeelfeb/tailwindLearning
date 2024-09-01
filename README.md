@@ -1,3 +1,11 @@
+
+```markdown
+## Tailwind Learning
+
+### Example 3
+
+
+
 If the `target="_blank"` attribute isn't working as expected within your GitHub README or another Markdown file, it's likely due to GitHub's restrictions on the HTML tags and attributes that can be used in Markdown files. GitHub, for security and consistency reasons, strips out certain attributes, including `target="_blank"`, when rendering Markdown files.
 
 However, there are a few things to check and alternatives to consider:
@@ -20,11 +28,6 @@ Given the limitations, if you must use GitHub-flavored Markdown:
 - Provide instructions if it's important for the link to open in a new tab (e.g., for GitHub documentation or README files).
 
 ### Example with a Markdown Link
-
-```markdown
-## Tailwind Learning
-
-### Example 3
 
 The output of this code:
 
