@@ -16,8 +16,9 @@ The output of this code :
 </div>
 
 ````
-<p>Check out this <a href="https://play.tailwindcss.com/cbIurC4yOe" target="_blank" rel="noopener noreferrer">example link</a> for more information.</p>
-
+````
+<p>Check out this <a href="https://play.tailwindcss.com/cbIurC4yOe" target="_blank" rel="noopener noreferrer">Click here</a> To View the Code Behind</p>
+````
 https://play.tailwindcss.com/cbIurC4yOe
 ![Screenshot of the Project](./tailwind1.png)
 
