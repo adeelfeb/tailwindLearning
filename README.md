@@ -1,8 +1,8 @@
 
 ```markdown
-## Tailwind Learning
+# Tailwind Learning
 
-### Example 3
+# Example 3
 
 
 
@@ -10,24 +10,24 @@ If the `target="_blank"` attribute isn't working as expected within your GitHub 
 
 However, there are a few things to check and alternatives to consider:
 
-### 1. GitHub's Markdown Rendering
+ 1. GitHub's Markdown Rendering
 
 - **Security Restrictions**: GitHub-flavored Markdown (GFM) is designed to be secure, so it sanitizes HTML input to prevent malicious code execution. This sanitization process might remove certain attributes like `target="_blank"` for security purposes.
 - **Standard Markdown**: In a standard Markdown file on GitHub, all links will open in the same tab by default, and there is no native Markdown syntax to change this behavior.
 
-### 2. Alternative Approaches
+2. Alternative Approaches
 
 - **Informing Users**: If you're sharing a link and want users to open it in a new tab, you could add a note like "(Right-click and select 'Open in new tab')" next to the link.
 - **Use in Webpages**: If you're using this in a context where Markdown is converted to HTML on a website you control (e.g., a static site generator like Jekyll or Hugo), you might have more control. In these cases, ensure your Markdown parser allows HTML and that `target="_blank"` isn't stripped.
 
-### 3. Fallbacks for GitHub Markdown
+3. Fallbacks for GitHub Markdown
 
 Given the limitations, if you must use GitHub-flavored Markdown:
 
 - Stick with simple Markdown links, understanding they'll open in the same tab.
 - Provide instructions if it's important for the link to open in a new tab (e.g., for GitHub documentation or README files).
 
-### Example with a Markdown Link
+Example with a Markdown Link
 
 The output of this code:
 
