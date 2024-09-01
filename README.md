@@ -1,5 +1,26 @@
 # tailwindLearning
 
+
+# 3 
+The output of this code :
+````
+<div class="m-8 mx-auto  items-center space-x-4 rounded-xl bg-blue-100 p-8">
+  <div class="mt-4">
+    <div class="mx-auto max-w-sm rounded-lg bg-white overflow-hidden md:max-w-2xl">
+      <div class="md:flex">
+        <div class="h-38 w-full object-cover md:h-full md:w-38"><img src="https://imgs.search.brave.com/1BG0bIQO05RzD1dQvOn9EGcEErbhC3trKUOEau5ML8A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvaGQtYW5pbWUt/cHJyMXkxazVncXhm/Y2dwdi5qcGc" alt="Goku" ></div>
+        <div class="p-8">Goku an anime character inspired from the Sun Goku the monkey King whose game is getting famous and is in controversy now a days</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+````
+
+![Screenshot of the Project](./tailwind1.png)
+
+
+
 --> Just did this mini task in tailwindcssplay 
 
 # 2
