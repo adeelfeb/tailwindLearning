@@ -16,7 +16,7 @@ The output of this code :
 </div>
 
 ````
-
+https://play.tailwindcss.com/cbIurC4yOe
 ![Screenshot of the Project](./tailwind1.png)
 
 
