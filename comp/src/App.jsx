@@ -1,18 +1,17 @@
-// App.jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
-// import MainContent from './MainContent';
+import MainContent from './Components/MainContent';
 import './index.css'; // Ensure Tailwind is included
 
 function App() {
   return (
     <Router>
-      <div className="bg-blue-100 min-h-screen">
+      <div className="bg-slate-300 min-h-screen">
         <Header />
         <Routes>
-          {/* <Route path="/" element={<MainContent />} /> */}
-          <Route path="/about" element={<div>About Page</div>} />
-          <Route path="/contact" element={<div>Contact Us Page</div>} />
+          <Route path="/" element={<MainContent />} />
+          <Route path="/*" element={<MainContent />} /> {/* This will handle any sub-routes */}
+          <Route path="*" element={<div>404 Not Found</div>} />
         </Routes>
       </div>
     </Router>
