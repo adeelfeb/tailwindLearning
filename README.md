@@ -1,27 +1,61 @@
-# tailwindLearning
+If the `target="_blank"` attribute isn't working as expected within your GitHub README or another Markdown file, it's likely due to GitHub's restrictions on the HTML tags and attributes that can be used in Markdown files. GitHub, for security and consistency reasons, strips out certain attributes, including `target="_blank"`, when rendering Markdown files.
 
+However, there are a few things to check and alternatives to consider:
 
-# 3 
-The output of this code :
-````
-<div class="m-8 mx-auto  items-center space-x-4 rounded-xl bg-blue-100 p-8">
+### 1. GitHub's Markdown Rendering
+
+- **Security Restrictions**: GitHub-flavored Markdown (GFM) is designed to be secure, so it sanitizes HTML input to prevent malicious code execution. This sanitization process might remove certain attributes like `target="_blank"` for security purposes.
+- **Standard Markdown**: In a standard Markdown file on GitHub, all links will open in the same tab by default, and there is no native Markdown syntax to change this behavior.
+
+### 2. Alternative Approaches
+
+- **Informing Users**: If you're sharing a link and want users to open it in a new tab, you could add a note like "(Right-click and select 'Open in new tab')" next to the link.
+- **Use in Webpages**: If you're using this in a context where Markdown is converted to HTML on a website you control (e.g., a static site generator like Jekyll or Hugo), you might have more control. In these cases, ensure your Markdown parser allows HTML and that `target="_blank"` isn't stripped.
+
+### 3. Fallbacks for GitHub Markdown
+
+Given the limitations, if you must use GitHub-flavored Markdown:
+
+- Stick with simple Markdown links, understanding they'll open in the same tab.
+- Provide instructions if it's important for the link to open in a new tab (e.g., for GitHub documentation or README files).
+
+### Example with a Markdown Link
+
+```markdown
+## Tailwind Learning
+
+### Example 3
+
+The output of this code:
+
+```html
+<div class="m-8 mx-auto items-center space-x-4 rounded-xl bg-blue-100 p-8">
   <div class="mt-4">
     <div class="mx-auto max-w-sm rounded-lg bg-white overflow-hidden md:max-w-2xl">
       <div class="md:flex">
-        <div class="h-38 w-full object-cover md:h-full md:w-38"><img src="https://imgs.search.brave.com/1BG0bIQO05RzD1dQvOn9EGcEErbhC3trKUOEau5ML8A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvaGQtYW5pbWUt/cHJyMXkxazVncXhm/Y2dwdi5qcGc" alt="Goku" ></div>
-        <div class="p-8">Goku an anime character inspired from the Sun Goku the monkey King whose game is getting famous and is in controversy now a days</div>
+        <div class="h-38 w-full object-cover md:h-full md:w-38">
+          <img src="https://imgs.search.brave.com/1BG0bIQO05RzD1dQvOn9EGcEErbhC3trKUOEau5ML8A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQtaGQtYW5pbWUt/cHJyMXkxazVncXhm/Y2dwdi5qcGc" alt="Goku">
+        </div>
+        <div class="p-8">
+          Goku is an anime character inspired by Sun Goku, the Monkey King, whose game is getting famous and is in controversy nowadays.
+        </div>
       </div>
     </div>
   </div>
 </div>
+```
 
-````
-````
-<p>Check out this <a href="https://play.tailwindcss.com/cbIurC4yOe" target="_blank" rel="noopener noreferrer">Click here</a> To View the Code Behind</p>
-````
-https://play.tailwindcss.com/cbIurC4yOe
+Check out this [Click here](https://play.tailwindcss.com/cbIurC4yOe) to view the code behind.
+
+Or visit directly:
+[https://play.tailwindcss.com/cbIurC4yOe](https://play.tailwindcss.com/cbIurC4yOe)
+
 ![Screenshot of the Project](./tailwind1.png)
+```
 
+### Conclusion
+
+In a GitHub README, HTML attributes like `target="_blank"` won't work because of GitHub's security settings. You can use plain Markdown syntax for links, understanding that they'll open in the same tab, and suggest users open them in a new tab if needed. For websites where you have full control over HTML rendering, the `target="_blank"` attribute should work fine.
 
 
 --> Just did this mini task in tailwindcssplay 
