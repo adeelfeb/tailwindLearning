@@ -1,11 +1,21 @@
+// App.jsx
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './Components/Header/Header';
+// import MainContent from './MainContent';
 import './index.css'; // Ensure Tailwind is included
-import './App.css';   // Optional: if you have custom styles
 
 function App() {
   return (
-    <div className='bg-slate-900 min-h-screen'>
-      <p>Hi there why is  it not working ?</p>
-    </div>
+    <Router>
+      <div className="bg-blue-100 min-h-screen">
+        <Header />
+        <Routes>
+          {/* <Route path="/" element={<MainContent />} /> */}
+          <Route path="/about" element={<div>About Page</div>} />
+          <Route path="/contact" element={<div>Contact Us Page</div>} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
