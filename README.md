@@ -1,3 +1,27 @@
+# Installing the Emoji Library for the React project
+
+````
+npm install react-icons
+````
+
+
+# The sync error due to pull request resolving method maybe 
+
+````
+git pull --rebase origin main
+````
+
+``try this ``
+
+This command will rebase your local commits on top of the fetched commits. This method is often preferred for maintaining a linear history.
+
+
+
+
+
+
+
+
 # Created the Basic Header and trying learning to make it responsive using Tailwind in the React Base Frontend
 
 ```markdown

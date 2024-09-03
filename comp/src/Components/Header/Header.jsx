@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <nav className="bg-indigo-200 w-full h-14 flex justify-between items-center px-4 md:px-8">
-      <div className='text-2xl text-blue-400'>
+      <div className='text-2xl text-black font-bold'>
         <Link to="/" aria-label="Go to homepage">Watch To Work</Link>
       </div>
       <ul className="font-semibold hidden md:flex space-x-4">
