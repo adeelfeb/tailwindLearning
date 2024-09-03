@@ -1,3 +1,19 @@
+# How the Website Looks
+``
+The website is looking simple as it is since I have only learned and implemented the TailwindCSS to integrate and utilize in the project
+``
+
+``
+backend is also being developed by the team-member
+``
+
+
+![The Website ScreenShot](./ebsiteMobile.png)
+![The Website ScreenShot](./websiteMobile.png)
+![The Website ScreenShot](./website.png)
+![The Website ScreenShot](./websitefooter.png)
+
+
 # Installing the Emoji Library for the React project
 
 ````
