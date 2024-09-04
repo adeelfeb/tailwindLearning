@@ -1,6 +1,7 @@
 # MongoDb from Huzaifa
 
-![The DB is all setup just needing the connection work to be done on it]()
+![The DB is all setup just needing the connection work to be done on it](./db.png)
+![The DB is all setup just needing the connection work to be done on it](./db2.png)
 
 
 # How the Website Looks
