@@ -1,3 +1,8 @@
+# MongoDb from Huzaifa
+
+![The DB is all setup just needing the connection work to be done on it]()
+
+
 # How the Website Looks
 ``
 The website is looking simple as it is since I have only learned and implemented the TailwindCSS to integrate and utilize in the project
