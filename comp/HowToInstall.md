@@ -1,5 +1,17 @@
 # fyp
 
+# Now let me tell You something ``stackblitz.com`` it is the tool you want
+simply go there create account
+<br>
+Copy the repo in the terminal <br>
+got to the specific repo containing the src and everything in my case the 
+```js
+cd comp
+npm install
+npm run dev
+```
+
+
 
 To install Tailwind CSS in a React project created using Vite, you can follow these steps. Tailwind CSS is a utility-first CSS framework that allows you to style your applications quickly.
 
